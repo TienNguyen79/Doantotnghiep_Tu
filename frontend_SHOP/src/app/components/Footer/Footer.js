@@ -137,7 +137,7 @@ const Footer = () => {
       <div className="w-full h-[1px] mt-6  bg-[#474747] opacity-20"></div>
       <div className="pt-6  flex flex-col md:flex-row lg:flex-row items-center justify-between mt-4">
         <span className="text-gray5 text-sm font-normal italic text-textBold">
-          TTQSHOP © 2026. Copyright belongs to NMT
+          TTQSHOP © 2026. Copyright belongs to TTQ SHOP
         </span>
         <div className="mt-2 md:mt-0 lg:mt-0 flex gap-x-2 items-center">
           <img src="/methodPayment/ApplePay.png" alt="" />
