@@ -45,7 +45,7 @@ const ContactPage = () => {
                 />
               </svg>
             </BoxContact>
-            <BoxContact content="tientech2002@gmail.com">
+            <BoxContact content="ttqshop682@gmail.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={52}
@@ -84,7 +84,7 @@ const ContactPage = () => {
               </svg>
             </BoxContact>
             <BoxContact
-              content="0919985502
+              content="0337122282
 "
             >
               <svg
@@ -133,7 +133,7 @@ const ContactPage = () => {
                   <Input
                     control={control}
                     name="fullName"
-                    placeholder="Nguyễn Tiến"
+                    placeholder="TTQ Shop"
                     //   className="w-full"
                   ></Input>
                 </div>
@@ -141,7 +141,7 @@ const ContactPage = () => {
                   <Input
                     control={control}
                     name="email"
-                    placeholder="tien@gmail.com"
+                    placeholder="ttqshop682@gmail.com"
                   ></Input>
                 </div>
               </div>
@@ -162,7 +162,8 @@ const ContactPage = () => {
       </Gap>
 
       <Image
-        url="/locationofMe.jpg"
+        url="/locationofMe.png
+        "
         className="mt-10 h-[400px] w-full  filter brightness-95"
       ></Image>
     </div>

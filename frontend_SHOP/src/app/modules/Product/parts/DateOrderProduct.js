@@ -2,7 +2,7 @@ import { CalendarDays } from "lucide-react";
 import React from "react";
 
 const DateOrderProduct = ({
-  date = "27/5/2024",
+  date = "27/5/2026",
   className = "text-[16px]",
 }) => {
   return (

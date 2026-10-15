@@ -68,7 +68,7 @@ const CheckOutPage = () => {
   // ------------------------
 
   const [addressId, setAddressId] = useState(
-    dataCurrentUser?.Addresses?.[0]?.id
+    dataCurrentUser?.Addresses?.[0]?.id,
   );
 
   const [PaymentMehodId, setPaymentMehodId] = useState(1);
@@ -76,7 +76,7 @@ const CheckOutPage = () => {
   // ------------------------
 
   const [infoAddress, setInfoAddress] = useState(
-    dataCurrentUser?.Addresses?.[0]?.address
+    dataCurrentUser?.Addresses?.[0]?.address,
   );
 
   // mục đích để khi thêm address lần đầu nó hiện lên luôn
@@ -100,14 +100,14 @@ const CheckOutPage = () => {
       accumulator +
       currentValue.quantity *
         parseFloat(formatPrice(currentValue.price).replace(".", "")),
-    0
+    0,
   );
   // ------------------------
 
   const handleChangeAddress = (e) => {
     setAddressId(e.target.value);
     const selectedItem = dataCurrentUser.Addresses.find(
-      (item) => item.id === e.target.value
+      (item) => item.id === e.target.value,
     );
     if (selectedItem) {
       setInfoAddress(selectedItem.address);
@@ -146,7 +146,7 @@ const CheckOutPage = () => {
     // window.location.port lấy được port hiện tại vd: 3000
     // mới đàu cứ phải cho trạng thái pending
     const data = {
-      description: "CHUYEN TIEN CHO MTSHOP",
+      description: "CHUYEN TIEN CHO TTQSHOP",
       amount: totalMoneyCheckout,
       cancelUrl: `http://localhost:${window.location.port}${Epath.paymentError}`,
       returnUrl: `http://localhost:${window.location.port}${Epath.paymentSuccess}`,
@@ -158,7 +158,7 @@ const CheckOutPage = () => {
             callBack: () => {
               window.location.href = checkoutUrl;
             },
-          })
+          }),
         );
       },
     };
@@ -182,7 +182,7 @@ const CheckOutPage = () => {
     const checkAdetailAddress = data.AdetailAddress.split(",");
 
     const joinAddress = `${checkAdetailAddress.join(
-      " "
+      " ",
     )}, ${labelWards}, ${labelDistrict}, ${labelCity}`;
 
     dispatch(
@@ -192,7 +192,7 @@ const CheckOutPage = () => {
           toast.success("Thêm địa chỉ thành công", { autoClose: 800 });
           setIsModalOpen2(false);
         },
-      })
+      }),
     );
   };
 
@@ -206,7 +206,7 @@ const CheckOutPage = () => {
 
   const handleDistrictChange = (districtId, { label }) => {
     const selectedProvince = dataDistrict.find(
-      (province) => province.id === districtId
+      (province) => province.id === districtId,
     );
     setLabelDistrict(label);
     setWards(selectedProvince ? selectedProvince.data3 : []);

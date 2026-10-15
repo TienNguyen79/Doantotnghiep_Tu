@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="flex items-center justify-center">
       {" "}
       <p className="text-center block text-text3 italic ">
-        MTSHOP - Thời trang đẳng cấp, phong cách vượt thời gian !
+        TTQSHOP - Thời trang đẳng cấp, phong cách vượt thời gian !
       </p>
     </div>
   );

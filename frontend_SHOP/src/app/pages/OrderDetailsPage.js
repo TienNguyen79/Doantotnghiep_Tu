@@ -115,7 +115,7 @@ const OrderDetailsPage = () => {
 
   const totalMoneyOrder = dataTableProduct?.reduce(
     (accumulator, currentValue) => accumulator + currentValue.total,
-    0
+    0,
   );
 
   //--- lưu trong hóa đơn
@@ -467,12 +467,12 @@ const OrderDetailsPage = () => {
                         callBack: () => {
                           navigate("/myOrders/0");
                         },
-                      })
+                      }),
                     );
                     dispatch(
                       handleCancelOrderPayment({
                         id: dataOrderPayment?.orderCode,
-                      })
+                      }),
                     );
                   }
                 })
@@ -490,7 +490,7 @@ const OrderDetailsPage = () => {
               </h1>
               <div className="flex justify-center items-start flex-col gap-y-3 mt-2">
                 <NameUser name={dataDetailsOrder?.User?.userName}></NameUser>
-                <ContentUser>tiennguyen@gmail.com</ContentUser>
+                <ContentUser>ttqshop682@gmail.com</ContentUser>
                 <ContentUser className="!text-text1 text-[16px]">
                   {dataDetailsOrder?.deliveryAddress?.address}
                 </ContentUser>
@@ -546,10 +546,10 @@ const OrderDetailsPage = () => {
                       {dataOrderPayment?.status === statusPayment.PENDING
                         ? "Chờ Thanh Toán"
                         : dataOrderPayment?.status === statusPayment.PAID
-                        ? "Đã Thanh Toán"
-                        : dataOrderPayment?.status === statusPayment.CANCELLED
-                        ? "Đã Hủy"
-                        : ""}
+                          ? "Đã Thanh Toán"
+                          : dataOrderPayment?.status === statusPayment.CANCELLED
+                            ? "Đã Hủy"
+                            : ""}
                     </h1>
                   </Fragment>
                 )}

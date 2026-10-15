@@ -1,15 +1,9 @@
 # Getting Started with SHOP
 
-MTShop is one of the leading online fashion shopping websites, offering customers a modern and stylish shopping experience. We pride ourselves on providing high-quality fashion products with a wide variety of styles and designs, ranging from everyday outfits to elegant attire for special occasions.
+TTQSHOP is one of the leading online fashion shopping websites, offering customers a modern and stylish shopping experience. We pride ourselves on providing high-quality fashion products with a wide variety of styles and designs, ranging from everyday outfits to elegant attire for special occasions.
 
 - `npm install`
 - `npm start`
-
----
-
-**_Admin MTSHOP :_** https://github.com/TienNguyen79/frontendAdmin_MTSHOP
-
-**_Backend MTSHOP :_** https://github.com/TienNguyen79/backend_MTSHOP
 
 ## Some main functions in the project.
 

@@ -16,7 +16,7 @@ const Footer = () => {
 
   const sortDataAllCategory = sortByQuantityProduct(
     Array.isArray(dataAllCategory?.results) ? dataAllCategory.results : [],
-    true
+    true,
   );
 
   return (
@@ -30,12 +30,12 @@ const Footer = () => {
           </TextFooter>
           <div className="flex md:flex-col lg:flex-row md:gap-y-2 gap-x-4 text-sm mt-2">
             <div className="relative">
-              <TextFooter className="italic">0919985502</TextFooter>
+              <TextFooter className="italic">0337122282</TextFooter>
               <div className="absolute after:bg-primary after:absolute after:contents-'' after:w-[86px] after:h-[2px] "></div>
             </div>
             <span className="text-gray5 ">or</span>
             <div className="relative">
-              <TextFooter className="italic">tientech2002@gmail.com</TextFooter>
+              <TextFooter className="italic">ttqshop682@gmail.com</TextFooter>
               <div className="absolute after:bg-primary after:absolute after:contents-'' after:w-[170px] after:h-[2px] "></div>
             </div>
           </div>
@@ -137,7 +137,7 @@ const Footer = () => {
       <div className="w-full h-[1px] mt-6  bg-[#474747] opacity-20"></div>
       <div className="pt-6  flex flex-col md:flex-row lg:flex-row items-center justify-between mt-4">
         <span className="text-gray5 text-sm font-normal italic text-textBold">
-          MTSHOP © 2024. Copyright belongs to NMT
+          TTQSHOP © 2026. Copyright belongs to NMT
         </span>
         <div className="mt-2 md:mt-0 lg:mt-0 flex gap-x-2 items-center">
           <img src="/methodPayment/ApplePay.png" alt="" />

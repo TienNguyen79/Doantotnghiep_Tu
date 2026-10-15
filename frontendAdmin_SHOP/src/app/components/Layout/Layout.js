@@ -13,7 +13,7 @@ const Layout = () => {
           <div className="flex items-center  gap-x-2 border-b-[2px] border-text2">
             <Image url="/logo3.png" className="w-[100px] h-[100px]"></Image>
             {/* <h1 className=" font-medium text-primary text-[22px] italic">
-              ADMIN MTSHOP
+              ADMIN TTQSHOP
             </h1> */}
           </div>
           <SideBar></SideBar>

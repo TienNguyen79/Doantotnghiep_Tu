@@ -30,7 +30,7 @@ const InvoiceComponent = React.forwardRef((props, ref) => {
 
   const TotalInvoice = dataTableProduct.reduce(
     (accumulator, currentValue) => accumulator + currentValue.total,
-    0
+    0,
   );
 
   const columns = [
@@ -197,10 +197,10 @@ const InvoiceComponent = React.forwardRef((props, ref) => {
                       {dataProInCheckout.status === statusPayment.PENDING
                         ? "Chờ Thanh Toán"
                         : dataProInCheckout.status === statusPayment.PAID
-                        ? "Đã Thanh Toán"
-                        : dataProInCheckout.status === statusPayment.CANCELLED
-                        ? "Đã Hủy"
-                        : ""}
+                          ? "Đã Thanh Toán"
+                          : dataProInCheckout.status === statusPayment.CANCELLED
+                            ? "Đã Hủy"
+                            : ""}
                     </h1>
                   </Fragment>
                 </div>
@@ -212,7 +212,7 @@ const InvoiceComponent = React.forwardRef((props, ref) => {
       {/* <div className="footInvoice mt-auto flex flex-col justify-center items-center">
         <Divider style={{ backgroundColor: "#F3F4F6" }}></Divider>
         <span className="text-text3 text-center">
-          MT SHOP cảm ơn quý khách hàng !
+          TTQ SHOP cảm ơn quý khách hàng !
         </span>
       </div> */}
     </div>

@@ -12,74 +12,27 @@ import Button from "../../components/Button/Button";
 const listImg = [
   {
     id: 1,
-    url: "/Sliderbanner/FS_G4.png",
+    url: "/Sliderbanner/image1.png",
     to: "",
   },
   {
     id: 7,
-    url: "/Sliderbanner/ronaldoImg.png",
+    url: "/Sliderbanner/image2.png",
     to: "",
   },
   {
     id: 2,
-    url: "/Sliderbanner/FS_G2.png",
+    url: "/Sliderbanner/image3.png",
     to: "",
   },
   {
     id: 3,
-    url: "/Sliderbanner/FS_G3.png",
+    url: "/Sliderbanner/image4.png",
     to: "",
   },
   {
     id: 8,
-    url: "/Sliderbanner/FS_B2.png",
-    to: "",
-  },
-  {
-    id: 4,
-    url: "/Sliderbanner/FS_G9.png",
-    to: "",
-  },
-  {
-    id: 12,
-    url: "/Sliderbanner/FS_B1.png",
-    to: "",
-  },
-  {
-    id: 5,
-    url: "/Sliderbanner/FS_G5.png",
-    to: "",
-  },
-  {
-    id: 6,
-    url: "/Sliderbanner/FS_G7.png",
-    to: "",
-  },
-
-  {
-    id: 9,
-    url: "/Sliderbanner/FS_B3.png",
-    to: "",
-  },
-  {
-    id: 10,
-    url: "/Sliderbanner/FS_B4.png",
-    to: "",
-  },
-
-  {
-    id: 13,
-    url: "/Sliderbanner/Vi_1.png",
-    to: "",
-  },
-  {
-    id: 14,
-    url: "/Sliderbanner/Vi_2.png",
-    to: "",
-  },
-  {
-    id: 15,
-    url: "/Sliderbanner/Vi_3.png",
+    url: "/Sliderbanner/image5.png",
     to: "",
   },
 ];

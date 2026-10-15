@@ -4,7 +4,7 @@ const ShowPath = () => {
   return (
     <div className="  py-6 opacity-60">
       <p className="text-center block text-text1 ">
-        MTSHOP - Thời trang đẳng cấp, phong cách vượt thời gian !
+        TTQSHOP - Thời trang đẳng cấp, phong cách vượt thời gian !
       </p>
     </div>
   );

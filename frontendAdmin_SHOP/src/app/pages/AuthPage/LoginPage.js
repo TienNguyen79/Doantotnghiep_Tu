@@ -36,7 +36,7 @@ const LoginPage = () => {
 
   const handleLoginForm = (data) => {
     dispatch(
-      handleLoginAdmin({ ...data, callback: () => navigate(Epath.dashboard) })
+      handleLoginAdmin({ ...data, callback: () => navigate(Epath.dashboard) }),
     );
   };
 
@@ -63,7 +63,7 @@ const LoginPage = () => {
                 Admin
               </h1>
               <p className="text-white text-center px-5">
-                MTSHOP - Chất lượng dịch vụ là ưu tiên hàng đầu của chúng ta.
+                TTQSHOP - Chất lượng dịch vụ là ưu tiên hàng đầu của chúng ta.
               </p>
             </div>
           </div>

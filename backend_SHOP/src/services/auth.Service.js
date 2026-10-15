@@ -131,7 +131,7 @@ const loginService = async (data, res) => {
               accessToken: accessToken,
               refreshToken: refreshToken,
             },
-          })
+          }),
         );
       }
     }
@@ -272,7 +272,7 @@ const sendMailService = async (req, res) => {
                <p><a  href="${process.env.APP_URL}/resetpass?email=${email}&token=${hashedEmail}"> Xác Nhận </a></p>
                <p>Nếu bạn không thực hiện yêu cầu này, vui lòng bỏ qua email này.</p>
                <p>Trân trọng,</p>
-               <p>Đội ngũ quản trị viên MTSHOP</p>`
+               <p>Đội ngũ quản trị viên TTQSHOP</p>`,
         );
         return res.status(OK).json({ ms: "Send Mail successfully !" });
       })
@@ -311,7 +311,7 @@ const forgotPassService = async (req, res) => {
               where: {
                 email: email,
               },
-            }
+            },
           );
           return res.status(OK).json({ ms: "Thay đổi mật khẩu thành công" });
         } else {
@@ -392,7 +392,7 @@ const loginAdminService = async (data, res) => {
               accessToken: accessToken,
               refreshToken: refreshToken,
             },
-          })
+          }),
         );
       }
     }
@@ -414,7 +414,7 @@ const overviewInfoService = async (req, res) => {
 
     const sumRevenue = findOrderSuccess.reduce(
       (accumulator, currentValue) => accumulator + currentValue.total,
-      0
+      0,
     );
 
     const overdata = {

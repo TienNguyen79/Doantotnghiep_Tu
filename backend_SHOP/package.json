@@ -1,5 +1,5 @@
 {
-  "name": "backend_MTSHOP",
+  "name": "backend_TTQSHOP",
   "version": "1.0.0",
   "description": "build base",
   "main": "server.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node src/server.js"
   },
-  "author": "TienNguyen79",
+  "author": "TTQ shop",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.24.4",
