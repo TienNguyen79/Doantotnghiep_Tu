@@ -1,4 +1,4 @@
-# Getting Started with MT SHOP
+# Getting Started with SHOP
 
 MTShop is one of the leading online fashion shopping websites, offering customers a modern and stylish shopping experience. We pride ourselves on providing high-quality fashion products with a wide variety of styles and designs, ranging from everyday outfits to elegant attire for special occasions.
 
